@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stratifi</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="./reset.css">
+<link rel="stylesheet" href="./styles.css">
+<script src="./index.js"></script>
+<body>
+  <img src="./assets/Images/left menu.png" alt="">
+  <div class="main-content">
+    <div class="title-area">
+      <div class="title">
+        What we recommend
+      </div>
+      <div class="btn">
+        Generate PDF Report
+      </div>
+    </div>
+    <div class="description-area">
+      <div class="description">
+        Your PRISM score can be lowered with <p class="text-link">StratiFi overlays</p>. Following charts show how Stratifi Overlays can lower the risk of your portfolio with StratiFi reccomended overlay blendings.
+      </div>
+    </div>
+    <div class="sub-title-area">
+      <div class="sub-title">
+        Portfolio + 
+        <p class="text-link">
+          50% Tail Risk, 50% Risk Reduction
+        </p>
+      </div>
+    </div>
+    
+    <div class="chart-area">
+
+      <div class="pie-chart">
+        <canvas id="pie-chart-canvas"></canvas>
+        <div class="pie-chart-text">Low Risk</div>
+      </div>
+        
+        <div class="bar-graph">
+          
+          <ul class="zones">
+            <span class="first">#62ce02</span>
+            <span class="second">#f39f09</span>
+            <span class="third">#c93539</span>
+          </ul>
+          
+          <div class="chart">
+            <ul class="chart-horiz">
+              <li class="chart-bar" style="width: 100%;">
+                <span class="chart-label">
+                  volatility
+                </span>
+              </li>
+              <li class="chart-bar" style="width: 66%;">
+                <span class="chart-label">
+                  Correlation Risk
+                </span>
+              </li>
+              <li class="chart-bar" style="width: 75%;">
+                <span class="chart-label">
+                  Tail Event
+                </span>
+              </li>
+              <li class="chart-bar" style="width: 85%;">
+                <span class="chart-label">
+                  Concentrated Stock
+                </span>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+     
+    </div>
+  </div>
+  
+</body>
+</html>
