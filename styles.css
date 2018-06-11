@@ -94,6 +94,7 @@ body {
 
 .pie-chart, .bar-graph {
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .pie-chart {
@@ -110,17 +111,65 @@ body {
 
 .pie-chart-text {
   margin-left: 20px;
+  margin-right: 20px;
   font-size: 28px;
   color: #00cc3d;
 }
+/*  ------ bar graph sstuff ------ */
 
-.bar-graph {
-  margin-bottom: 25px;
+.zones {
+  display: flex;
+  justify-content: space-around;
+  width: 333px;
+  margin-bottom: 10px;
+}
+
+.zones li:nth-child(1) {
+  color: #62ce02;
+}
+
+.zones li:nth-child(2) {
+  color: #f39f09;
+}
+
+.zones li:nth-child(3) {
+  color: #c93539;
+}
+
+.chart {
+  width: 550px;
+}
+
+.chart-horiz-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 17.5px;
+}
+
+.chart-label {
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.chart-bar-container {
+  height: 10px;
+  width: 333px;
+  background: #d3d6db;
+}
+
+.chart-bar {
+  height: 10px;
+  background: linear-gradient(to right, #62ce02, #f39f09, #c93539);
 }
 
 @media (max-width:1080px) {
   .chart-area {
     flex-direction: column;
     align-items: center;
+  }
+
+  .pie-chart {
+    margin-bottom: 0;
   }
 }

@@ -45,33 +45,46 @@
         <div class="bar-graph">
           
           <ul class="zones">
-            <span class="first">#62ce02</span>
-            <span class="second">#f39f09</span>
-            <span class="third">#c93539</span>
+            <li>
+              <div>#62ce02</div>
+            </li>
+
+            <li>
+              <div>#f39f09</div>
+            </li>
+
+            <li>
+              <div>#c93539</div>
+            </li>
           </ul>
           
           <div class="chart">
             <ul class="chart-horiz">
-              <li class="chart-bar" style="width: 100%;">
-                <span class="chart-label">
-                  volatility
-                </span>
+              <li class="chart-horiz-item">
+                <div class="chart-bar-container">
+                  <div id="first" class="chart-bar" style="width: 100%"></div>
+                </div>
+                <div class="chart-label">Volatility</div>
               </li>
-              <li class="chart-bar" style="width: 66%;">
-                <span class="chart-label">
-                  Correlation Risk
-                </span>
+              <li class="chart-horiz-item">
+                <div class="chart-bar-container">
+                  <div id="second" class="chart-bar" style="width: 66%"></div>
+                </div>
+                <div class="chart-label">Correlation Risk</div>
               </li>
-              <li class="chart-bar" style="width: 75%;">
-                <span class="chart-label">
-                  Tail Event
-                </span>
+              <li class="chart-horiz-item">
+                <div class="chart-bar-container">
+                  <div id="third" class="chart-bar" style="width: 75%"></div>
+                </div>
+                <div class="chart-label">Tail Event</div>
               </li>
-              <li class="chart-bar" style="width: 85%;">
-                <span class="chart-label">
-                  Concentrated Stock
-                </span>
+              <li class="chart-horiz-item">
+                <div class="chart-bar-container">
+                  <div id="fourth" class="chart-bar" style="width: 85%"></div>
+                </div>
+                <div class="chart-label">Concentrated Stock</div>
               </li>
+
             </ul>
           </div>
           
